@@ -3,9 +3,6 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import MainMenu from './MainMenu'
 import Game from './Game'
 import Leaderboard from './Leaderboard'
-import { useNavigate } from 'react-router'
-
-const useNavigate = useNavigate();
 
 function App() {
   return (
