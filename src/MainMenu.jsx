@@ -5,10 +5,10 @@ const MainMenu = () => {
         <div className="center">
             <h1 className="space_font"> Learning Project </h1>
             <Link to="/game"> 
-                <button className="button"> Start Game </button>
+                <button className="button space_font terminal_style"> Start Game </button>
             </Link>
             <Link to="/leaderboard">
-                <button className="button"> Leaderboard </button>
+                <button className="button space_font terminal_style"> Leaderboard </button>
             </Link>
         </div>
     );

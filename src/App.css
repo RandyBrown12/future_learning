@@ -2,13 +2,15 @@
 /* OBJECTS || */
 
 .button { 
-    margin: 3em;
-    width: 200px;
+    margin: 1.5em;
+    width: 250px;
     height: 100px;
+    font-size: 2em;
 }
 
 .textarea {
     margin: auto;
+    font-size: 1.5em;
 }
 
 .image {
@@ -27,4 +29,9 @@
 
 .space_font {
     font-family: 'VCR OSD Mono', sans-serif;                          
+}
+
+.terminal_style {
+    background-color: black;
+    color: #1abd30;
 }
