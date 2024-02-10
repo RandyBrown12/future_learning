@@ -1,8 +1,8 @@
 import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import MainMenu from './MainMenu'
-import Game from './Game'
-import Leaderboard from './Leaderboard'
+import MainMenu from './components/MainMenu'
+import Game from './components/Game'
+import Leaderboard from './components/Leaderboard'
 
 function App() {
   return (
