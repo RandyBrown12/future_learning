@@ -7,10 +7,6 @@ import { useNavigate } from 'react-router'
 
 const useNavigate = useNavigate();
 
-const refreshPage = () => {
-  navigate(0);
-}
-
 function App() {
   return (
     <BrowserRouter>
