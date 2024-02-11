@@ -12,6 +12,7 @@ const Game = () => {
 
     const evaluateFunction = () => {
         let answer = "";
+        //Outside for function
         const output = (element) => {
             answer = element;
         }
