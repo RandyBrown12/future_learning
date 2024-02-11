@@ -76,3 +76,7 @@ body {
 .white_text {
   color: whitesmoke;
 }
+
+.game-header {
+  font-size: 4rem;
+}
