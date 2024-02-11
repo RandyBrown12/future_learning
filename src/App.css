@@ -1,17 +1,20 @@
-@import url('https://fonts.cdnfonts.com/css/vcr-osd-mono');
+@import url("https://fonts.cdnfonts.com/css/vcr-osd-mono");
 
 /* OBJECTS || */
 
 body {
-    background-image: url('./images/space.png');
+  background-image: url("./images/space.png");
 }
 
-.button { 
-    margin-top: 10.5em;
-    width: 250px;
-    height: 100px;
-    font-size: 2em;
-    border: 0.2em solid white;
+.first-button {
+  margin-top: 14rem;
+}
+
+.button {
+  width: 250px;
+  height: 100px;
+  font-size: 2em;
+  border: 0.15rem solid white;
 }
 
 .textarea {
@@ -26,26 +29,26 @@ body {
 }
 
 .textbox_container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2em;
 }
 
 .textbox {
-    padding: 1em;
-    max-width: 75%;
-    margin-left: auto;
-    margin-right: auto;
+  padding: 1em;
+  max-width: 75%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .timer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: transparent;
-    color: whitesmoke;
-    font-size: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  color: whitesmoke;
+  font-size: 2em;
 }
 
 /* UTILITY || */
@@ -61,10 +64,15 @@ body {
 }
 
 .terminal_style {
-    background-color: black;
-    color: #1abd30;
+  background-color: black;
+  color: #1abd30;
+}
+
+.terminal_style:hover {
+  background-color: #1abd30;
+  color: black;
 }
 
 .white_text {
-    color: whitesmoke;
+  color: whitesmoke;
 }
