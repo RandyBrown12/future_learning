@@ -7,7 +7,7 @@ const Game = () => {
     // "Q1", "["Question","Test Cases", "Answer","Time in Minutes"]"
     const questions = new Map([
         ["Q1", ['Given an array named students, what index is the name "John" in?', ['let students = ["John"]', 'let students = ["Frank","Diana","John"]','let students = ["Jhn","John"]'], [0,2,1], 3]],
-    
+        ["Q2", []]
     ])
 
     const evaluateFunction = () => {
