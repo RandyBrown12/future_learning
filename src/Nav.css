@@ -9,18 +9,25 @@
 }
 
 .nav-btn {
-  color: black;
-  background-color: white;
+  /* color: black;
+  background-color: white; */
+  color: #1abd30;
+  background-color: black;
   padding: 0.5rem;
+  border: 0.1rem solid white;
 }
 
 .nav-btn:hover {
-  color: green;
-  background-color: black;
+  color: black;
+  background-color: #1abd30;
+}
+
+.nav-btn .svg-icon {
+  fill: #1abd30;
 }
 
 .nav-btn:hover .svg-icon {
-  fill: green;
+  fill: black;
 }
 
 .right-nav {
