@@ -4,7 +4,7 @@ import { useTimer } from 'react-timer-hook';
 const Timer = ({expiryTimestamp}) => {
     const {seconds, minutes} = useTimer({expiryTimestamp})
     return ( 
-        <p> {minutes}:{(seconds >= 10) ? seconds : "0" + seconds}</p>
+        <p> Time Remaining: {minutes}:{(seconds >= 10) ? seconds : "0" + seconds}</p>
     );
 }
  
