@@ -1,8 +1,8 @@
-import './App.css'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import MainMenu from './MainMenu'
-import Game from './Game'
-import Leaderboard from './Leaderboard'
+import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import MainMenu from "./MainMenu";
+import Game from "./Game";
+import Leaderboard from "./Leaderboard";
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
         <Route path="/leaderboard" element={<Leaderboard />} />
       </Routes>
     </BrowserRouter>
-  )
+  );
 }
 
-export default App
+export default App;

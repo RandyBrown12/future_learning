@@ -1,0 +1,45 @@
+@import url("https://fonts.cdnfonts.com/css/vcr-osd-mono");
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  background-color: transparent;
+}
+
+.nav-btn {
+  color: black;
+  background-color: white;
+  padding: 0.5rem;
+}
+
+.nav-btn:hover {
+  color: green;
+  background-color: black;
+}
+
+.nav-btn:hover .svg-icon {
+  fill: green;
+}
+
+.right-nav {
+  width: 14rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* CSS */
+button {
+  /* Reset all default button styles */
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  outline: none; /* Remove default focus outline */
+  /* Add any additional styling as needed */
+}

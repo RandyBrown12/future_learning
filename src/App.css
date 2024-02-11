@@ -1,37 +1,37 @@
-@import url('https://fonts.cdnfonts.com/css/vcr-osd-mono');
+@import url("https://fonts.cdnfonts.com/css/vcr-osd-mono");
 /* OBJECTS || */
 
-.button { 
-    margin: 1.5em;
-    width: 250px;
-    height: 100px;
-    font-size: 2em;
+.button {
+  margin: 1.5em;
+  width: 250px;
+  height: 100px;
+  font-size: 2em;
 }
 
 .textarea {
-    margin: auto;
-    font-size: 1.5em;
+  margin: auto;
+  font-size: 1.5em;
 }
 
 .image {
-    margin: auto;
-    width: 200px;
-    height: 200px;
+  margin: auto;
+  width: 200px;
+  height: 200px;
 }
 
 /* UTILITY || */
 .center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .space_font {
-    font-family: 'VCR OSD Mono', sans-serif;                          
+  font-family: "VCR OSD Mono", sans-serif;
 }
 
 .terminal_style {
-    background-color: black;
-    color: #1abd30;
+  background-color: black;
+  color: #1abd30;
 }
