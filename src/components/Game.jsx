@@ -3,13 +3,21 @@ import Timer from './Timer';
 const Game = () => {
     const [inputCode, setInputCode] = useState("");
     const [question, setQuestion] = useState("Q1");
-    const students = ["John"]
+
+    let students = [];
     // "Q1", "["Question","Test Cases", "Answer","Time in Minutes"]"
     const questions = new Map([
-        ["Q1", ['Given an array named students, what index is the name "John" in?', ['let students = ["John"]', 'let students = ["Frank","Diana","John"]','let students = ["Jhn","John"]'], [0,2,1], 3]],
+        ["Q1", ['Given an array named students, what index is the name "John" in?', ['students = ["John"]', 'students = ["Frank","Diana","John"]','students = ["Jhn","John"]'], [0,2,1], 3]],
         ["Q2", []]
     ])
 
+    /*
+for(let i = 0;i < students.length; i++) {
+    if(students[i] === "John") {
+        output(i);
+    }
+}
+    */
     const evaluateFunction = () => {
         let answer = "";
         //Outside for function
@@ -19,14 +27,13 @@ const Game = () => {
         let text = inputCode;
         for(let i = 0;i < questions.get(question)[1].length; i++) {
             eval(questions.get(question)[1][i]);
+            console.log(students, i);
             eval(text);
             if(answer !== questions.get(question)[2][i]) {
                 console.log("Wrong!");
-                console.log(answer);
-                console.log(questions.get(question)[2][i]);
-                console.log(`Number: ${i}`)
                 return;
             }
+            delete window.students;
         }
         console.log("Correct!");
     }
